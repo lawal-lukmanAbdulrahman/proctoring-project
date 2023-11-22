@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.customcontainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.commonContainer{
+  padding: 0 40px 50px 40px;
+}
+
+.rightSide{
+  display: flex;
+  align-items: center;
+  background-image: url('/images/Editingbodytextrafiki.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 2px solid red; */
+  width: 60%;
+  height: 100vh;
+}
+.leftSide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  width: 40%;
+}
+.header1{
+  color: #03045E;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header2{
+  color: #03045E;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn{
+  width: 343px;
+  height: 55.655px;
+  flex-shrink: 0;
+  border-radius: 30px;
+background: #FF9E00;
+color: #03045E;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* whysd starts */
+.whysdContainer{
+  position: relative;
+  width: 100%;
+  height: 605px;
+  flex-shrink: 0;
+  background: #03045E;
+  display: flex;
+  justify-content: space-between;
+/* gap: 35px; */
+}
+
+.whyright{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  margin-left: 60%;
+}
+.whyright > h2{
+  color: #FF9600;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.whyright > p{
+  display: block;
+  color: #FFF;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.whyleft{
+  position: absolute;
+  top: 90px;
+  background-image: url('/images/whysdimg.svg');
+  background-repeat: no-repeat;
+  width: 50%; /* Adjust the width to fit within the available space */
+  height: 100vh;
+}
+/* Need for proctoring website */
+.container1{
+  margin: 116px auto 50px auto;
+  width: 100%;
+  height: auto;
+  /* gap: 50px; */
+}
+
+.cardBox{
+  position: relative;
+  width: 395.768px;
+  height: 326.587px;
+  flex-shrink: 0;
+  border-radius: 10px;
+border: 1px solid #263238;
+background: #FFF;
+padding: 0 15px 0 15px;
+box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* cardImg cardImg1 */
+.cardImg{
+  position: absolute;
+  top: -20%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125.144px;
+  height: 128.073px;
+  border-radius: 100%;
+  background-color: #E91818;
+} 
+.cardCont{
+  /* border: 2px solid red; */
+  margin-top: 50%;
+  width: 364px;
+  height: auto;
+  gap: 50px;
+  /* flex-direction: column; */
+  /* width: 40%; */
+}
+.cardCont > h2{
+  /* border: 2px solid purple; */
+  color: #03045E;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+height: 39px;
+padding-bottom: 10px;
+/* align-items: flex-start; */
+}
+.cardBox2{
+  width: 395.768px;
+height: 326.587px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #263238;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cardImg2{
+  position: absolute;
+  top: -20%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125.144px;
+  height: 128.073px;
+  border-radius: 100%;
+  background-color: #E91818;
+} 
+
+/* about */
+
+
+.aboutcomp > h1{
+  width: 166px;
+  color: #03045E;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 23px;
+
+}
+.aboutcomp > p{
+  width: 1000px;
+  color: #03045E;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 56px;
+}
+.bg{
+  position: relative;
+  width: 100%;
+  height: 605px;
+  flex-shrink: 0;
+  background-color: #03045E;
+  width: 1440px;
+height: 778px;
+flex-shrink: 0;
+}
+.bg >p{
+  width: 577px;
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 80px;
+}
+.con{
+  position: relative;
+  width: 100%;
+  height: 605px;
+  flex-shrink: 0;
+  /* background: #03045E; */
+  display: flex;
+  justify-content: space-between
+  /* background: #03045E; */
+} 
+
+
+.girdcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .girdcontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .girdcontainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Style for demonstration purposes */
+.item {
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
